@@ -1,0 +1,80 @@
+{
+    "apple":[
+        {
+            "name":"Apple iPhone 11",
+            "price":"144899",
+            "description":"Apple is developing and now iPhone 11 got leaked in the wild showing the outline of its new and innovative design. As you can see above in the picture that on the backside of the Apple iPhone 11 horizontal camera is introduced which is consist of dual camera setup and now flashlight is placed between the both camera in the middle that's gonna make Apple iPhone 11's photography quite better and attractive. Along with the camera setup of the device other information is also leaked in which its display is the second one which is 5.65 inches in size.",
+            "image":"assets/images/A1.jpg"
+        },
+        {
+            "name":"Apple iPhone 11 Pro",
+            "price":"207799",
+            "description":"Apple is developing and now iPhone 11 got leaked in the wild showing the outline of its new and innovative design. As you can see above in the picture that on the backside of the Apple iPhone 11 horizontal camera is introduced which is consist of dual camera setup and now flashlight is placed between the both camera in the middle that's gonna make Apple iPhone 11's photography quite better and attractive. Along with the camera setup of the device other information is also leaked in which its display is the second one which is 5.65 inches in size.",
+            "image":"assets/images/a2.jpg"
+        },
+        {
+            "name":"Apple iPhone 11 Pro Max",
+            "price":" 226599",
+            "description":"Apple is developing and now iPhone 11 got leaked in the wild showing the outline of its new and innovative design. As you can see above in the picture that on the backside of the Apple iPhone 11 horizontal camera is introduced which is consist of dual camera setup and now flashlight is placed between the both camera in the middle that's gonna make Apple iPhone 11's photography quite better and attractive. Along with the camera setup of the device other information is also leaked in which its display is the second one which is 5.65 inches in size.",
+            "image":"assets/images/a3.jpg"
+        }
+    ],
+    "Samsung":[
+        {
+            "name":"Samsung Galaxy Z Fold 5",
+            "price":"604999",
+            "description":"Samsung Galaxy Z Fold 5 - The Future Foldable Smartphone Of Samsung! Samsung will bring the new Galaxy Z 5 Fold in near future. We learned from a Korean blog that Samsung is already working on a foldable smartphone, which will be Samsung's Galaxy Z Fold 5.Furthermore, we will share the exciting features and specifications with you today. Let's expose this beast. As we know there will be massive dual Foldable Dynamic AMOLED 2X Capacitive Touchscreen screens on this Samsung Z Fold 5. Screen size may be 7.6 inches",
+            "image":"assets/images/s1.jpg"
+        },
+        {
+            "name":"Samsung Galaxy Z Fold 6",
+            "price":"656999",
+            "description":"Samsung Galaxy Z Fold 5 - The Future Foldable Smartphone Of Samsung! Samsung will bring the new Galaxy Z 5 Fold in near future. We learned from a Korean blog that Samsung is already working on a foldable smartphone, which will be Samsung's Galaxy Z Fold 5.Furthermore, we will share the exciting features and specifications with you today. Let's expose this beast. As we know there will be massive dual Foldable Dynamic AMOLED 2X Capacitive Touchscreen screens on this Samsung Z Fold 5. Screen size may be 7.6 inches",
+            "image":"assets/images/s2.jpg"
+        },
+        {
+            "name":"Samsung Galaxy Z Fold 4 12GB",
+            "price":" 574999",
+            "description":"Samsung Galaxy Z Fold 5 - The Future Foldable Smartphone Of Samsung! Samsung will bring the new Galaxy Z 5 Fold in near future. We learned from a Korean blog that Samsung is already working on a foldable smartphone, which will be Samsung's Galaxy Z Fold 5.Furthermore, we will share the exciting features and specifications with you today. Let's expose this beast. As we know there will be massive dual Foldable Dynamic AMOLED 2X Capacitive Touchscreen screens on this Samsung Z Fold 5. Screen size may be 7.6 inches",
+            "image":"assets/images/s3.jpg"
+        },
+        {
+            "name":"Samsung Galaxy S24 Ultra",
+            "price":" 434999",
+            "description":"Samsung Galaxy Z Fold 5 - The Future Foldable Smartphone Of Samsung! Samsung will bring the new Galaxy Z 5 Fold in near future. We learned from a Korean blog that Samsung is already working on a foldable smartphone, which will be Samsung's Galaxy Z Fold 5.Furthermore, we will share the exciting features and specifications with you today. Let's expose this beast. As we know there will be massive dual Foldable Dynamic AMOLED 2X Capacitive Touchscreen screens on this Samsung Z Fold 5. Screen size may be 7.6 inches",
+            "image":"assets/images/s4.jpg"
+        }
+    ],
+    "Realme":[
+        {
+            "name":"Realme 9i",
+            "price":"77500",
+            "description":"Realme 9i - Anther Smartphone Of 9-Series Smart tech Realme is unveiling 9i to the market soon. The company is working on a new handset, there were some key specifications of this coming smartphone which was leaked online. The coming device will be in its 9-series and named a Realme 9i.",
+            "image":"assets/images/r1.jpg"
+        },
+        {
+            "name":"Realme GT Master Edition",
+            "price":"76999",
+            "description":"Realme 9i - Anther Smartphone Of 9-Series Smart tech Realme is unveiling 9i to the market soon. The company is working on a new handset, there were some key specifications of this coming smartphone which was leaked online. The coming device will be in its 9-series and named a Realme 9i.",
+            "image":"assets/images/r2.jpg"
+        },
+        {
+            "name":"Realme 12 Plus",
+            "price":"74999",
+            "description":"Realme 9i - Anther Smartphone Of 9-Series Smart tech Realme is unveiling 9i to the market soon. The company is working on a new handset, there were some key specifications of this coming smartphone which was leaked online. The coming device will be in its 9-series and named a Realme 9i.",
+            "image":"assets/images/r3.jpg"
+        },
+        {
+            "name":"Realme 7 Pro",
+            "price":"49999",
+            "description":"Realme 9i - Anther Smartphone Of 9-Series Smart tech Realme is unveiling 9i to the market soon. The company is working on a new handset, there were some key specifications of this coming smartphone which was leaked online. The coming device will be in its 9-series and named a Realme 9i.",
+            "image":"assets/images/r4.jpg"
+        },
+        {
+            "name":"Realme C65",
+            "price":"49999",
+            "description":"Realme 9i - Anther Smartphone Of 9-Series Smart tech Realme is unveiling 9i to the market soon. The company is working on a new handset, there were some key specifications of this coming smartphone which was leaked online. The coming device will be in its 9-series and named a Realme 9i.",
+            "image":"assets/images/r5.jpg"
+        }
+    ]
+}
