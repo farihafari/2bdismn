@@ -1,0 +1,26 @@
+<?php
+
+echo "Hello World";
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    dfgsdifug
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ut dolorum corporis inventore eligendi a iusto dolorem odio alias voluptate quaerat iure, officiis, debitis explicabo, nesciunt cupiditate maiores laboriosam ea.</p>
+    <h1>djsfkjsdhvdsh </h1>
+</body>
+
+</html>
+<?php
+
+echo "Hello World";
+
+?>
