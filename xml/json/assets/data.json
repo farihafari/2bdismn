@@ -1,6 +1,7 @@
 {
     "apple":[
         {
+            
             "name":"Apple iPhone 11",
             "price":"144899",
             "description":"Apple is developing and now iPhone 11 got leaked in the wild showing the outline of its new and innovative design. As you can see above in the picture that on the backside of the Apple iPhone 11 horizontal camera is introduced which is consist of dual camera setup and now flashlight is placed between the both camera in the middle that's gonna make Apple iPhone 11's photography quite better and attractive. Along with the camera setup of the device other information is also leaked in which its display is the second one which is 5.65 inches in size.",
@@ -45,7 +46,7 @@
             "image":"assets/images/s4.jpg"
         }
     ],
-    "Realme":[
+    "realme":[
         {
             "name":"Realme 9i",
             "price":"77500",
