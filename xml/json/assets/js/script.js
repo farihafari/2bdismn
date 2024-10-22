@@ -5,12 +5,12 @@ $(document).ready(function(){
         success:function(brands){
 // console.log(brands)
 let apple ="";
-let realme = "";
+// let realme = "";
 $.each(brands,function(keys,arrays){
     // if(keys=="apple"){
-
+// console.log(arrays)
         $.each(arrays,function(index,objects){
-      apple+=`    <div class="col-lg-3 mt-3">
+      apple+=`<div class="col-lg-3 mt-3">
                       <div class="card">
                           <img class="card-img-top" src="${objects.image}" alt="Title" />
                           <div class="card-body">
@@ -72,6 +72,7 @@ if(concatVal==getQueryString){
       <button
         type="button"
         class="btn btn-outline-danger"
+        onclick="Decreament()"
       >
       -
       </button>
@@ -90,6 +91,7 @@ if(concatVal==getQueryString){
         <button
         type="button"
         class="btn btn-outline-success"
+        onclick="Increament()"
       >
    +
       </button>
@@ -98,11 +100,53 @@ if(concatVal==getQueryString){
     <button
         type="button"
         class=" mt-3 btn btn-outline-primary"
+        onclick="AddToCart('${getQueryString}')"
     >
-       checkout
+       Add To Cart
     </button>`)
 }
             })
         })
     }
+
 })
+// add to cart
+let count =1;
+function Increament(){
+count++;
+document.querySelector("#number").value=count;
+}
+function Decreament(){
+    if(count>1){
+
+    
+    count--;
+    document.querySelector("#number").value=count;
+
+    }else{
+        document.querySelector("#number").value=1
+    }
+
+}
+
+function AddToCart(id){
+// console.log(id)
+// console.log(detailProducts)
+$.ajax({
+    url:"assets/data.json",
+    type:"get",
+    success:function(cartProducts){
+        $.each(cartProducts,function(cartKeys,cartArrays){
+            $.each(cartArrays,function(cartIndex,cartObject){
+                if(cartKeys+cartIndex==id){
+                   let localdata = localStorage.getItem("cartData");
+                //    console.log(localstorage);
+                if(localdata==null){
+                    localStorage.setItem("cartData",'[]')
+                }
+                }
+            })
+        })
+    }
+})
+}
