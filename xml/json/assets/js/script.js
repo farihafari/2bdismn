@@ -180,3 +180,45 @@ $("#cartCount").html(cartLength);
 
 }
 // localStorage.clear()
+// view Cart
+let CartData = JSON.parse(localStorage.getItem("cartData"));
+let y = "";
+let total =0;
+// console.log(cartData.length);
+
+    for(let keys of cartData){
+        // console.log(keys.productName)
+    total=keys.productQuantity*keys.productPrice
+        y+=`  <tr class="">
+                    <td scope="row">
+                        <img
+                            src="${keys.productImage}"
+                            class="img-fluid rounded-top"
+                            alt=""
+                        />
+                        
+                    </td>
+                    <td>${keys.productName}</td>
+                    <td>${keys.productQuantity}</td>
+                    <td scope="row">${keys.productPrice}</td>
+                    <td>${total}</td>
+                    <td><a class="btn btn-info">Edit</a></td>
+                    <td><a onclick="CartDelete('${keys.productId}')" class="btn btn-danger">Delete</a></td>
+    
+                </tr>`
+    }
+$("#dataTable").html(y);
+// cart Delete
+function CartDelete(id){
+// console.log(id)
+for(let index in cartData){
+  if(cartData[index].productId==id){
+    // console.log(cartData[index])
+    cartData.splice(index,1);
+    alert("cart delete");
+    localStorage.setItem("cartData",JSON.stringify(cartData));
+    location.assign("cart.html")
+
+  }
+}
+}
