@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aptech>
+<center name="SFC">
+    <department name="Faculty">
+        <employees status="Senoir">
+            <employee>
+               
+          
+                <designation>faculty</designation>
+                <salary>454584</salary>
+            </employee>
+        </employees>
+    </department>
+    <department name="StudentAffairs"></department>
+    <department name="TND"></department>
+
+</center>
+<center name="NN1">
+    <department name="Faculty">
+        <employees status="Senoir">
+            <employee id="fj1216">
+                <name>fariha</name>
+                <phone>54125435</phone>
+                <designation>faculty</designation>
+                <salary>454584</salary>
+            </employee>
+        </employees>
+    </department>
+    <department name="StudentAffairs"></department>
+    <department name="TND"></department>
+    <department name="examination"></department>
+</center>
+<center name="MSG">
+    <department name="Faculty">
+        <employees status="Senoir">
+            <employee id="fj1216">
+                <name>fariha</name>
+                <phone>54125435</phone>
+                <designation>faculty</designation>
+                <salary>454584</salary>
+            </employee>
+        </employees>
+    </department>
+    <department name="StudentAffairs"></department>
+    <department name="TND"></department>
+    <department name="examination"></department>
+</center>
+</aptech>
