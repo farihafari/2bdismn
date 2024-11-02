@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "external.dtd" [
+   
+<!ENTITY cfamily "7062">
+
+]>
+<students>
+    <id>123</id>
+    <name>ali</name>
+    <course semester="1">&cfamily;</course>
+    <phone>01664</phone>
+    <id>20</id>
+    <name>aliya</name>
+    <course semester="2">&cfamily;</course>
+    <email>aliya@gmail.com</email>
+    <phone>06515616</phone>
+</students>

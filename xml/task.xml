@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE softtech SYSTEM "task.dtd" [
+    
+]>
+<softtech>
+    <department name="IT">
+        <senior>
+            <id>101</id>
+            <name>Asad</name>
+            <email>asad@gmail.com</email>
+            <post>system operator</post>
+            <salary>50000</salary>
+        </senior>
+    </department>
+    <department name="Development">
+        <senior>
+            <id>1201</id>
+            <name>sana</name>
+            <email>sana@gmail.com</email>
+            <post>PHP Developer</post>
+            <salary>150000</salary>
+        </senior>
+        <senior>
+            <id>1202</id>
+            <name>fahad</name>
+            <email>fahad@gmail.com</email>
+            <post>Laravel Developer</post>
+            <salary>200000</salary>
+        </senior>
+        <junior>
+            <id>1101</id>
+            <name>ALI</name>
+            <email>ali@gmail.com</email>
+            <post>.Net Developer</post>
+            <salary>75000</salary>
+        </junior>
+    </department>
+    <department name="Admin">
+        <junior>
+            <id>121</id>
+            <name>umair</name>
+            <email>umair@gmail.com</email>
+            <post>manager</post>
+            <salary>60000</salary>
+        </junior>
+    </department>
+</softtech>
