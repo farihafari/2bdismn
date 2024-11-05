@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="organization">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="employees" minOccurs="1" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="employee" minOccurs="1" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+
+                                    
+                            <xsd:element name="id" type="xsd:positiveInteger"></xsd:element>
+                            <xsd:element name="name">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+                                        <xsd:pattern value="[a-z\s]{3,16}"></xsd:pattern>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="age">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:positiveInteger">
+                                        <xsd:minExclusive value="17"></xsd:minExclusive>
+                                        <xsd:maxExclusive value="30"></xsd:maxExclusive>
+
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+                            </xsd:element>
+                            <xsd:element name="city">
+                                <xsd:simpleType>
+                                    <xsd:restriction base="xsd:string">
+<xsd:enumeration value="karachi"/>
+<xsd:enumeration value="lahore"/>
+<xsd:enumeration value="islamabad"/>
+<xsd:enumeration value="peshawar"/>
+                                    </xsd:restriction>
+                                </xsd:simpleType>
+
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                        </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="client">
+
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+
+    </xsd:element>
+</xsd:schema>

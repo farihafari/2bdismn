@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<organization>
+    <employees>
+        <employee>
+        <id>121</id>
+        <name>ali</name>
+        <age>25</age>
+        <city>karachi</city>
+    </employee>
+    <employee>
+        <id>1201</id>
+        <name>aliyan</name>
+        <age>25</age>
+        <city>karachi</city>
+    </employee>
+    </employees>
+    <client></client>
+</organization>
