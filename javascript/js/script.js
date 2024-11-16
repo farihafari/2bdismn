@@ -18,4 +18,4 @@ this.name=name;
 let car  = new vehical("m22","black","abc","car");
 car.drive();
 let bus = new vehical("m12","red","abc","bus")
-bus.drive();
+bus. drive();
